@@ -1,0 +1,120 @@
+@import url(https://fonts.google.com/specimen/Muli?selection.family=Muli);body {
+  width: 100%;
+  margin: 0 auto;
+  background: #F7F8FD;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+p {
+  padding: 1rem;
+  font-size: inherit;
+}
+
+.ctaTile2 {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border-radius: 8px;
+  font-family: muli, sans-serif;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+.btnContainer {
+  display: inline-block;
+}
+
+button {
+  border: 3px solid #5A9CFF;
+  border-radius: 4px;
+  width: 150px;
+  background: inherit;
+  color: #5A9CFF;
+  margin: 0 0.5rem 0 0.5rem;
+  padding: 10px;
+  font-weight: bold;
+}
+
+button a {
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+#shareBtn {
+  background: #5A9CFF;
+  color: #fff;
+}
+
+#shareBtn a {
+  color: white;
+}
+
+@media all and (max-width: 480px) {
+  body {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .ctaTile2 {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .btnContainer {
+    width: 100%;
+  }
+
+  button {
+    border: 2px solid #5A9CFF;
+    text-decoration: none;
+    border-radius: 4px;
+    width: 90%;
+    background: inherit;
+    color: #5A9CFF;
+    margin: 0.3rem;
+  }
+}
+
+@media all and (min-width: 700px) {
+  .btnContainer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .ctaTile2 {
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  button {
+    padding: 10px;
+    width: 100px;
+  }
+}
+
+@media all and (min-width: 1400px) {
+  .ctaTile2 {
+    background: #fff;
+    border-radius: 8px;
+    font-family: muli, sans-serif;
+    padding: 50px;
+    display: flex;
+  }
+
+  button {
+    border: 2px solid #5A9CFF;
+    border-radius: 4px;
+    width: 150px;
+    height: 2.5rem;
+    background: inherit;
+    color: red;
+    margin: 1rem;
+    padding: 10px;
+  }
+}
+
